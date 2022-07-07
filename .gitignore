@@ -1,0 +1,6 @@
+node_modules
+.idea
+*.sqlite
+.env.yaml
+/coverage
+__tests__/mocks/data/actor-attribute/test.txt
