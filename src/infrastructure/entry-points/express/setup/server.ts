@@ -1,5 +1,6 @@
+import { APP_VARIABLES } from '../../../../common/initial.config';
 import { App } from './app';
-import {APP_VARIABLES} from "../../../../common/helpers/initial.config";
+
 
 const port = APP_VARIABLES.APP_PORT || 9000;
 
