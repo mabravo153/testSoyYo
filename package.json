@@ -9,7 +9,7 @@
     "tsc": "tsc -p .",
     "test:watch": "npm run test -- --watch",
     "dev": "ts-node-dev -r dotenv-yaml/config --respawn --transpile-only src/main/start.ts dotenv_yaml_config_path=environmentVars/.testSoyYo.env.yml",
-    "build": "docker build -t juridigopt/juridigo_ms_appointments:0.1.0-dev --build-arg npm_cred='uPgBrHRzXXPxtFgo5XZ+mV8mNazWCUCOwmRCt0GM3Ck=' . && ( docker rmi juridigopt/juridigo_ms_appointments:latest || echo 'no latest tag found' ) && docker tag juridigopt/juridigo_ms_appointments:0.1.0-dev juridigopt/juridigo_ms_appointments:latest && docker push juridigopt/juridigo_ms_appointments:latest"
+    "build": "docker build -t co.com.soyyo.entity.filter-dev-1_0_0"
   },
   "author": "mabravo153",
   "license": "ISC",
