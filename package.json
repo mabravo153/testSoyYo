@@ -4,12 +4,12 @@
   "description": "test ingreso soy yo ",
   "main": "index.js",
   "scripts": {
-    "start": "node build/main/start.js",
+    "start": "node build/src/main/start.js",
     "test": "jest --verbose",
     "tsc": "tsc -p .",
     "test:watch": "npm run test -- --watch",
     "dev": "ts-node-dev -r dotenv-yaml/config --respawn --transpile-only src/main/start.ts dotenv_yaml_config_path=environmentVars/.testSoyYo.env.yml",
-    "build": "docker build -t co.com.soyyo.entity.filter-dev-1_0_0"
+    "build": "docker build -t co.com.soyyo.entity.filter-dev-1_0_0 ."
   },
   "author": "mabravo153",
   "license": "ISC",

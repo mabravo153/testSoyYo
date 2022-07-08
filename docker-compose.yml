@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  node-app:
+    build: .
+    environment:
+      - APP_PORT=9000
+      - NODE_ENV='dev'
+      - ENTITIES_URL=https://awovcw7p76.execute-api.us-east-1.amazonaws.com/dev/entity/v2.1/entities/
+    ports:
+      - 9000:9000
